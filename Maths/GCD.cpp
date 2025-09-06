@@ -10,9 +10,8 @@ int gcd(int a, int b) {
     }
     return a;
 }
-
 int main() {
     int a = 56, b = 98;
     cout << "GCD of " << a << " and " << b << " is " << gcd(a, b) << endl;
     return 0;
-}
+}  
