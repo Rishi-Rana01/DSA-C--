@@ -1,13 +1,13 @@
-// GCD of two numbers using Euclidean algorithm
+// GCD of two numbers 
 #include <iostream>
 using namespace std;
 
 int gcd(int a, int b) {
-    while (b != 0) {
-        int temp = b;
-        b = a % b;
-        a = temp;
+    while (a > 0 && b > 0) {
+        if (a > b) a = a % b;
+        else b = b % a;
     }
+    if(a==0) return b;
     return a;
 }
 int main() {
