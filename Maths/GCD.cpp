@@ -1,4 +1,4 @@
-// GCD of two numbers
+// GCD of two numbers using Euclidean algorithm
 #include <iostream>
 using namespace std;
 
